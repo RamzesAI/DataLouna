@@ -2,7 +2,7 @@
 
 Фреймворк [Express]
 
-Копируем переменные окружениям(данные рабочие оставил, т.к. аккаунт был зарегистророван на временную почту для теста)
+Копируем переменные окружения(данные рабочие оставил, т.к. аккаунт был зарегистрирован на временную почту для теста)
 
 ```sh
 	cp .env.example .env
@@ -54,7 +54,7 @@
 
 ```sh
 		"oldPassword": "password",
-    "newPassword": "new password"
+		"newPassword": "new password"
 ```
 
 Для совершения покупки [POST] [http://localhost:3500/purchase]
@@ -66,6 +66,6 @@
 		"quantity": 1
 ```
 
-Для отображенич массива объектов с двумя минимальными ценами на предмет (одна цена — tradable, другая — нет) через API: [https://docs.skinport.com/#items] - [GET] [http://localhost:3500/api/items-with-prices]
+Для отображения массива объектов с двумя минимальными ценами на предмет (одна цена — tradable, другая — нет) через API: [https://docs.skinport.com/#items] - [GET] [http://localhost:3500/api/items-with-prices]
 
 кеширование через redis на 5 минут
